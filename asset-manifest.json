@@ -1,16 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d6bfd24d.js",
+    "main.js": "/static/js/main.8599b2a5.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Alckazar.png": "/static/media/Alckazar.d6f423aa59f67b3a66fc.png",
+    "static/media/Pharmeasy.png": "/static/media/Pharmeasy.66b89b1b00b94e8944fd.png",
+    "static/media/ReactJs.png": "/static/media/ReactJs.22d1f2096ed82cab7a8a.png",
+    "static/media/CSS.png": "/static/media/CSS.845e8eb63836bef093cf.png",
+    "static/media/Git.png": "/static/media/Git.b1472a80b81e487179cf.png",
+    "static/media/Redux.png": "/static/media/Redux.7fec6369cecd1cbd44d6.png",
+    "static/media/signature.png": "/static/media/signature.8369a193e5c11763c818.png",
+    "static/media/Nodejs.png": "/static/media/Nodejs.b508473ad71a31ce2fae.png",
+    "static/media/HTML.png": "/static/media/HTML.4e6edfe05f07c383e94f.png",
+    "static/media/image.jpeg": "/static/media/image.04a909d5637569f83264.jpeg",
+    "static/media/JS.png": "/static/media/JS.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d6bfd24d.js.map": "/static/js/main.d6bfd24d.js.map",
+    "main.8599b2a5.js.map": "/static/js/main.8599b2a5.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d6bfd24d.js"
+    "static/js/main.8599b2a5.js"
   ]
 }
