@@ -2,7 +2,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import React from 'react'
 import styled from 'styled-components'
-import myImage from '../image/image.jpeg'
+import myImage from '../image/image.jpg'
 import backgroundImage from '../image/background.jpg';
 import signature from '../image/signature.png';
 // import Resume from '../image/HiteshResume.pdf'
