@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import PharmEasy from '../image/Pharmeasy.png';
 import Alckazar from '../image/Alckazar.png';
+import cycle from '../image/cycle.png';
+import Ramicone from '../image/Ramicone.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
 
@@ -23,27 +25,27 @@ const Projects = () => {
             desc: 'Trusted by 80 million Travelers. Aalcazar is the worlds most comprehensive travel, flight and accommodation provider. very easy to access on your smarttree and desktop.',
             worked: 'This is a group project which is created by group of 4 members in 1 week.',
             githubLink: 'https://github.com/Dibakardebnath/Alcazar-project',
-            deployedLink: 'https://neon-marshmallow-b4a4c9.netlify.app/',
+            deployedLink: 'https://alcazar-project.vercel.app/',
             tags: ['HTML', 'CSS', 'Javascript']
         },
         {
             id: 3,
-            title: 'PharmEasy Website',
-            img: PharmEasy,
-            desc: 'PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.',
+            title: 'Specialized Cycle App',
+            img: cycle,
+            desc: 'The Specialized Cycle Shop app is a dedicated application designed to enhance the cycling experience for enthusiasts and riders who prefer Specialized bikes and equipment. This app provides a user-friendly platform that allows customers to explore and purchase a wide range of Specialized products, including bicycles, accessories, and apparel.',
             worked: 'This is a group project which is created by group of 4 members in 1 week.',
-            githubLink: 'https://github.com/kuntalkumar/Unit_4_Project_Pharmeasy',
-            deployedLink: 'https://6466188149da42083e1781f6--cerulean-basbousa-d1f219.netlify.app/',
+            githubLink: 'https://github.com/Imesunny/Collab_ReactProject',
+            deployedLink: 'https://cycleshop-clone-2oox0gnw2-imesunny.vercel.app/',
             tags: ['HTML', 'CSS', 'Javascript']
         },
         {
             id: 4,
-            title: 'Travel Agency',
-            img: Alckazar,
-            desc: 'Trusted by 80 million Travelers. Aalcazar is the worlds most comprehensive travel, flight and accommodation provider. very easy to access on your smarttree and desktop.',
-            worked: 'This is a group project which is created by group of 4 members in 1 week.',
-            githubLink: 'https://github.com/Dibakardebnath/Alcazar-project',
-            deployedLink: 'https://neon-marshmallow-b4a4c9.netlify.app/',
+            title: 'Ramicone Engineers India Website',
+            img: Ramicone,
+            desc: 'The one stop solution for all industrial consumables and fire fighting accessories.',
+            worked: 'Solo project.',
+            githubLink: 'https://github.com/hiteshsonawane900/ramicone',
+            deployedLink: 'https://ramiconeengineers-5orpfl2cm-hiteshsonawane900.vercel.app/',
             tags: ['HTML', 'CSS', 'Javascript']
         } 
         

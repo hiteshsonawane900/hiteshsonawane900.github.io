@@ -8,7 +8,7 @@ import signature from '../image/signature.png';
 // import Resume from '../image/HiteshResume.pdf'
 const About = () => {
     return (
-        <div id="about" className='about section'>
+        <div>
             <Container>
                 <div className='aboutBox'>
                     <div className='about_leftBox'>
@@ -34,13 +34,13 @@ const About = () => {
             <AboutMeWrapper>
                 <div className='aboutSection'>
                     <div className='left'>
-                        <h3>Personal Details</h3>
+                        <h3>About Me</h3>
                         <p></p>
                         <p>Email: <span>hiteshsonawane900@gmail.com</span></p>
                         <p>Language: <span>English</span></p>
                         <p>Nationality: <span>Indian</span></p>
                     </div>
-                    <div className='right'>
+                    <div className='right'  id="about" className='about section'>
                         <h2>I am <span>Full Stack Web Developer</span></h2>
                         <p id="user-detail-intro" >My name is Hitesh Sonawane, I am from Kalyan, Maharashtra. Passionate Full Stack Web Developer
                             with skills in the MERN stack, I have
