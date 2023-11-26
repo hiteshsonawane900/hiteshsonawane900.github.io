@@ -3,6 +3,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import styled from 'styled-components'
 import React, { useEffect, useState } from 'react'
 import { Link, animateScroll } from 'react-scroll'
+import Resume from '../image/Hitesh-Sonawane-Resume.pdf'
 
 
 const Navbar = () => {
@@ -57,7 +58,7 @@ const Navbar = () => {
                         setHead(true)
                         setActive("contact")
                     }} spy={true} smooth={true}>Contact</Link></li>
-                    <li onClick={() => setActive()}><div id="resume-button-1" className='resumeBox' ><a className="nav-link resume" id="resume-link-1" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" target='_blank' rel='noreferrer'>
+                    <li onClick={() => setActive()}><div id="resume-button-1" className='resumeBox' ><a className="nav-link resume" id="resume-link-1" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" target='_blank' download={"Hitesh-Sonawane-Resume"} rel='noreferrer'>
                         Resume
                     </a></div></li>
                 </ul>
