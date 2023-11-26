@@ -9,7 +9,7 @@ import signature from '../image/signature.png';
 const About = () => {
     return (
         <div>
-            <Container>
+            <Container id="about" className="about section">
                 <div className='aboutBox'>
                     <div className='about_leftBox'>
                         <h1 id="user-detail-name">Hi, I'm Hitesh Sonawane.</h1>
@@ -34,7 +34,7 @@ const About = () => {
             <AboutMeWrapper>
                 <div className='aboutSection'>
                     <div className='left'>
-                        <h3>About Me</h3>
+                        <h3>About</h3>
                         <p></p>
                         <p>Email: <span>hiteshsonawane900@gmail.com</span></p>
                         <p>Language: <span>English</span></p>
