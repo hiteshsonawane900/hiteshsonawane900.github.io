@@ -40,7 +40,7 @@ const About = () => {
                         <p>Language: <span>English</span></p>
                         <p>Nationality: <span>Indian</span></p>
                     </div>
-                    <div className='right'  id="about" className='about section'>
+                    <div   id="about" className='about section'>
                         <h2>I am <span>Full Stack Web Developer</span></h2>
                         <p id="user-detail-intro" >My name is Hitesh Sonawane, I am from Kalyan, Maharashtra. Passionate Full Stack Web Developer
                             with skills in the MERN stack, I have
