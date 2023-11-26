@@ -13,6 +13,7 @@ const About = () => {
     return (
         <div>
             <Container id="about" className="about section">
+               <h1 style={{textAlign:"center"}}>About</h1>
                 <div className='aboutBox'>
                     <div className='about_leftBox'>
                         <h1 id="user-detail-name">Hi, I'm Hitesh Sonawane.</h1>
@@ -37,7 +38,7 @@ const About = () => {
             <AboutMeWrapper>
                 <div className='aboutSection'>
                     <div className='left'>
-                        <h3>About</h3>
+                        <h3>About Me</h3>
                         <p></p>
                         <p>Email: <span>hiteshsonawane900@gmail.com</span></p>
                         <p>Language: <span>English</span></p>
