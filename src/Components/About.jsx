@@ -46,15 +46,7 @@ const About = () => {
                     </div>
                     <div   id="about" className='about section'>
                         <h2>I am <span>Full Stack Web Developer</span></h2>
-                        <p id="user-detail-intro" >My name is Hitesh Sonawane, I am from Kalyan, Maharashtra. Passionate Full Stack Web Developer
-                            with skills in the MERN stack, I have
-                            learned Full Stack Web Development
-                            in Masai school. Skilled in problem-
-                            solving and execution of software
-                            tasks from start to finish. I look
-                            forward to joining a company where
-                            I can contribute to individual and
-                            company growth..</p>
+                        <p id="user-detail-intro" >I am an aspiring full stack developer and recent graduate of Masai School. I have a passion for developing scalable web applications and learning across the full stack. I am proficient in HTML, CSS, JavaScript, and React, and I have a good command of Node.js, Express, and MongoDB. I am focused on efficient learning and eager to tackle more complex problems.I am a highly motivated and self-driven inBoxidual with a strong work ethic. I am also a team player and I am always willing to help others. I am confident that I have the skills and experience necessary to be successful in a full stack development role.</p>
                         <div>
                             <img src={signature} alt='hitesh_Signature' width='200px' />
                         </div>

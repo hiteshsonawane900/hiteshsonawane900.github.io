@@ -22,9 +22,6 @@ const Navbar = () => {
 
     };
    
-    const handleDownload = () => {
-        window.open(Resume, '_blank');
-      }; 
     console.log(active);
     window.addEventListener('scroll', changeNavbarColor);
     useEffect(() => {
@@ -34,6 +31,10 @@ const Navbar = () => {
             setColorchange(false)
         }
     }, [head, colorChange])
+    
+    const handleDownload = () => {
+        window.open(Resume, '_blank');
+      }; 
     return (
         <Container id="nav-menu">
             <header className="header" style={{ backgroundColor: `${colorChange ? 'white' : 'transparent'}` }}>
