@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.c0a11139.js",
+    "main.js": "/static/js/main.e003c423.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/cycle.png": "/static/media/cycle.537d0211e2d83cc23c21.png",
     "static/media/Alckazar.png": "/static/media/Alckazar.d6f423aa59f67b3a66fc.png",
     "static/media/Ramicone.png": "/static/media/Ramicone.727bf1216993d07b7bbb.png",
+    "static/media/Hitesh-Sonawane-Resume.pdf": "/static/media/Hitesh-Sonawane-Resume.c7471362765246f90236.pdf",
     "static/media/Pharmeasy.png": "/static/media/Pharmeasy.66b89b1b00b94e8944fd.png",
     "static/media/image.jpg": "/static/media/image.dcc0439ebde26e355a70.jpg",
     "static/media/ReactJs.png": "/static/media/ReactJs.22d1f2096ed82cab7a8a.png",
@@ -18,11 +19,11 @@
     "static/media/JS.png": "/static/media/JS.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.c0a11139.js.map": "/static/js/main.c0a11139.js.map",
+    "main.e003c423.js.map": "/static/js/main.e003c423.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c0a11139.js"
+    "static/js/main.e003c423.js"
   ]
 }
