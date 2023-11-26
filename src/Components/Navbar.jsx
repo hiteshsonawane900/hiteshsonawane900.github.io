@@ -21,7 +21,10 @@ const Navbar = () => {
         }
 
     };
-
+   
+    const handleDownload = () => {
+        window.open(Resume, '_blank');
+      }; 
     console.log(active);
     window.addEventListener('scroll', changeNavbarColor);
     useEffect(() => {
@@ -58,7 +61,8 @@ const Navbar = () => {
                         setHead(true)
                         setActive("contact")
                     }} spy={true} smooth={true}>Contact</Link></li>
-                    <li onClick={() => setActive()}><div id="resume-button-1" className='resumeBox' ><a className="nav-link resume" id="resume-link-1" href="https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf" target='_blank'  rel='noreferrer'>
+                    <li onClick={handleDownload}><div id="resume-button-1" className='resumeBox' ><a className="nav-link resume" id="resume-link-1" href={Resume}
+                    download={"Hitesh-Sonawane-Resume"} target='_blank'  rel='noreferrer'>
                         Resume
                     </a></div></li>
                 </ul>

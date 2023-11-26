@@ -5,8 +5,11 @@ import styled from 'styled-components'
 import myImage from '../image/image.jpg'
 import backgroundImage from '../image/background.jpg';
 import signature from '../image/signature.png';
-// import Resume from '../image/HiteshResume.pdf'
+import Resume from '../image/Hitesh-Sonawane-Resume.pdf'
 const About = () => {
+    const handleDownload = () => {
+        window.open(Resume, '_blank');
+      }; 
     return (
         <div>
             <Container id="about" className="about section">
@@ -16,7 +19,7 @@ const About = () => {
                         <p>Passionate Full Stack Web Developer with certification in backend and frontend in the MERN stack. Seeking to contribute my skills and expertise in the company growth. Ability to work in team environment, emphasizing team goals.</p>
                         <div className='resumesButton'>
                             <a id="resume-link-2" href="https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf">
-                                <button  id="resume-button-2">Download Resume<DownloadIcon /></button>
+                                <button  id="resume-button-2"onClick={handleDownload}>Download Resume<DownloadIcon /></button>
                             </a>
                             <a href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" target='_blank'>
                                 <button>View Resume<VisibilityIcon /></button>
