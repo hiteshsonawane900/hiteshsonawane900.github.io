@@ -17,7 +17,13 @@ const About = () => {
                 <div className='aboutBox'>
                     <div className='about_leftBox'>
                         <h1 id="user-detail-name">Hi, I'm Hitesh Sonawane.</h1>
-                        <p>Passionate Full Stack Web Developer with certification in backend and frontend in the MERN stack. Seeking to contribute my skills and expertise in the company growth. Ability to work in team environment, emphasizing team goals.</p>
+                        <p id="user-detail-intro">I am an aspiring full-stack web developer with expertise in the MERN
+                                    stack. Collaborative team player skilled at translating project
+                                    requirements into scalable web applications. Proficient in Node.js,
+                                    Express.js, React.js, and MongoDB. Strong problem-solving and
+                                    communication skills, with a proactive and self-motivated attitude. Stay
+                                    up-to-date with the latest web development trends and continuously
+                                    strive for software excellence.</p>
                         <div className='resumesButton'>
                             <a id="resume-link-2" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk">
                                 <button  id="resume-button-2"onClick={handleDownload}>Download Resume<DownloadIcon /></button>
