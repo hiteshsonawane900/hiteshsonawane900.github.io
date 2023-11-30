@@ -33,7 +33,7 @@ const Navbar = () => {
     }, [head, colorChange])
     
     const handleDownload = () => {
-        window.open(Resume, '_blank');
+        window.open("https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf", '_blank');
       }; 
     return (
         <Container id="nav-menu">
@@ -62,8 +62,8 @@ const Navbar = () => {
                         setHead(true)
                         setActive("contact")
                     }} spy={true} smooth={true}>Contact</Link></li>
-                    <li onClick={handleDownload}><div id="resume-button-1" className='resumeBox' ><a className="nav-link resume" id="resume-link-1" href={Resume}
-                    download={"Hitesh-Sonawane-Resume"} target='_blank'  rel='noreferrer'>
+                    <li><div id="resume-button-1" className='resumeBox' ><a onClick={handleDownload} className="nav-link resume" id="resume-link-1" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk"
+                    target='_blank' >
                         Resume
                     </a></div></li>
                 </ul>
