@@ -78,7 +78,7 @@ const ContactUs = () => {
                         <div  id="contact-github">
                             <GitHubIcon fontSize="large" />
                             <h1>GitHub</h1>
-                            <p>You can contact me on LinkedIn</p>
+                            <p>You can contact me on Github</p>
                             <a href="https://github.com/hiteshsonawane900" rel="noreferrer" target="_blank">
                                 <p>hiteshsonawane900</p>
                             </a>
