@@ -6,6 +6,9 @@ import cycle from '../image/cycle.png';
 import Ramicone from '../image/Ramicone.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
+import html from '../image/HTML.png'
+import css from '../image/CSS.png'
+import js from '../image/JS.png'
 
 const Projects = () => {
     const projects = [

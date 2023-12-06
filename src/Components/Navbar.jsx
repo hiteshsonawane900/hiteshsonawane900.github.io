@@ -33,7 +33,7 @@ const Navbar = () => {
     }, [head, colorChange])
     
     const handleDownload = () => {
-        window.open("https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf", '_blank');
+        window.open("https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf");
       }; 
     return (
         <Container id="nav-menu">

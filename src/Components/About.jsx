@@ -8,7 +8,7 @@ import signature from '../image/signature.png';
 import Resume from '../image/Hitesh-Sonawane-Resume.pdf'
 const About = () => {
     const handleDownload = () => {
-        window.open("https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf", '_blank');
+        window.open("https://drive.google.com/uc?export=download&id=1YM4qp0LsiFuio8-aogSL7hMADH2NVivf");
       };
     return (
         <div>
