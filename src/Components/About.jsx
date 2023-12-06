@@ -25,10 +25,10 @@ const About = () => {
                                     up-to-date with the latest web development trends and continuously
                                     strive for software excellence.</p>
                         <div className='resumesButton'>
-                            <a id="resume-link-2" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk">
-                                <button  id="resume-button-2"onClick={handleDownload}>Download Resume<DownloadIcon /></button>
+                            <a id="resume-link-2" href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" onClick={handleDownload} target='_blank'>
+                                <button  id="resume-button-2">Download Resume<DownloadIcon /></button>
                             </a>
-                            <a href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" target='_blank'>
+                            <a href="https://drive.google.com/file/d/1YM4qp0LsiFuio8-aogSL7hMADH2NVivf/view?usp=drivesdk" target='_blank' >
                                 <button>View Resume<VisibilityIcon /></button>
                             </a>
                         </div>
